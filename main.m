@@ -7,7 +7,7 @@ clear; clc; close all;
 pmax = 20;
 p = 7;
 
-load('databaseD.mat');
+load('dataset.mat')
 
 pfilter = 0.95;
 fs = EEG.fs;
